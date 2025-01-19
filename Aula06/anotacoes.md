@@ -1,23 +1,50 @@
-Condicionais :
+# Condicionais no Python
 
-Sequencial
+As condicionais no Python são estruturas fundamentais que permitem a execução de códigos diferentes com base em condições lógicas. Aqui estão os principais tipos de condicionais:
 
-simples 
+---
 
-IF
+## Condicional Sequencial
 
-compostas 
+- A execução do código segue uma sequência lógica, linha por linha.
 
-IF & ELSE
+---
 
-simplificadas
+## Condicional Simples
 
-#('carro novo' if tempo <= 3 else 'carro velho')
+- Utiliza apenas o `if`.
+- Executa um bloco de código se a condição for verdadeira.
 
-ansi?
+```python
+if tempo <= 3:
+    print("Carro novo")
+```
 
-\033[0;33;44m
+---
 
-style = 0=none 1=bold 4=underline 7=negative
-text = 30 a 37 cada um é uma cor (""lembrar de teste"")
-back = 40 a 47 mesmas cores do texto só que para background
+## Condicional Composta
+
+- Combina o `if` com o `else`.
+- Permite que um bloco seja executado caso a condição seja verdadeira e outro bloco caso seja falsa.
+
+```python
+if tempo <= 3:
+    print("Carro novo")
+else:
+    print("Carro velho")
+```
+
+---
+
+## Condicional Simplificada
+
+- Uma única linha que substitui o `if` e o `else` para condições simples.
+
+```python
+print("Carro novo" if tempo <= 3 else "Carro velho")
+```
+
+---
+
+Essas estruturas permitem criar lógicas mais dinâmicas e eficientes em seus programas. É importante usá-las de forma organizada e clara para garantir legibilidade e manutenção do código.
+
