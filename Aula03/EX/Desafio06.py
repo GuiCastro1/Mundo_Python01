@@ -3,13 +3,14 @@ Criado por : Gui Castro
 
 15/01/2025
 
-Crie um programa que  leia quanto de dinheiro uma pessoa tem na carteira e quntos dolares el apode comprar considere a cotação autal
-
+Faça um Programa qie leia um numero E mostra na tela  o seu sucessor e antesessor
+ 
+✔✔✔
 '''
-print('=====Converte Doleta=====')
+print("=====Sucessor & Antecessor=====")
 
-real = float(input('quanto dinheiro você tem na Carteira ? R$'))
+numero = int(input('Digite um numero para decobrir seu sucessor e seu antecessor'))
 
-doleta =  6.0377
+print('Sucessor : {}'.format(numero + 1))
 
-print (f'Com esse {real:.2f} você pode comprar {real / doleta:.2f} Dólares')
+print('Antecessor  : {}' . format(numero -1))

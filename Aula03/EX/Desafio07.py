@@ -3,16 +3,17 @@ Criado por : Gui Castro
 
 15/01/2025
 
-Faça um programa que leia altura e largura de uma parede em M e calcule quantos litros de tinta são necessarios para pintala considerando que cada litro pinta 2m²
+Crie um programa que cualcule seu dobro seu triplo e sua raiz quadrada
 
+✔✔✔
 '''
+print('=====Dobro Triplo & Raiz²=====')
 
-largura = float(input("LARGURA da  Parede"))
+n = int(input('Digiter um Número'))
 
-altura = float(input("ALTURA da  Parede"))
+print(f'O Dobro do número {n} é : {n *2}')
 
-area = largura * altura
+print(f'O triplo do número {n} é : {n*3}')
 
-tinta = area / 2 
-
-print(f'Sua parede tem uma area de :{area:.2f} m², e precisará de :{tinta:.2f} litros de tinta para cobrila completamente.')
+print(f'A raiz quadrada do número {n} é : {n ** (1/2)}')
+print(f'A raiz quadrada do número {n} é : {n *n}')

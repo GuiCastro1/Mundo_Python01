@@ -1,17 +1,43 @@
 '''
 Criado por : Gui Castro
 
-16/01/2025
+15/01/2025
 
-crie um programa que convertea de Celcius em Fahrenheit e Fahrenheit em Celcius
+crie um programa que calcule toda a da tabuada de um determinado numero
 
 '''
+print('=====Exibe Tabuada=====') 
 
-celcius = float(input("Digite a temperatura em Celcius para converter em Fahrenheit: Cº"))
+tabuada = int(input('Digite um cumero para exibir a tabuada do mesmo'))
+print("-" * 20)
+print(f'{tabuada :<1} x 1={ tabuada * 1:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 2:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 3:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 4:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 5:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 6:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 7:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 8:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 9:>2}')
+print(f'{tabuada :<1} x 1={ tabuada * 10:>2}')
 
-print(f'A temperatura digitada em Celcius corresponde a : {(celcius *1.8) + 32 } Graus Fahrenheit ! ! !')
+print("-" * 20)
+
+num = int(input('Digite um cumero para exibir a tabuada do mesmo'))
+
+for i in range(1,11):
+
+    print(f'{i :<2} x {num :>2} = {i * num:>3}')
 
 
-fahrenheit = float(input('Digite a te,peratura em Farenheit para converter em Celcius: Fº'))
+print("-" * 20)
+ndois = int(input('Digite um cumero para exibir a tabuada do mesmo'))
 
-print(f'A temperatura digitada em Fahrenheit corresponde a : {(fahrenheit - 32) * 5/9} Graus Celcius')
+i = 1
+
+while i <= 10:
+
+    print(f'{i :<2} x {num:>2} = {i * num :>3}')
+
+    i+=1
+print("-" * 20)

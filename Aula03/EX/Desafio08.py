@@ -3,19 +3,28 @@ Criado por : Gui Castro
 
 15/01/2025
 
-crie um programa que que receba o numero de um produto e acresenter um preço com desconto de 5 %
-
-
-desconto = preco - (preco * 5 / 100) conta que exibe o valor ja com desconto sem ter que cirar outra variavel para realizar a subtração do valor original - valor com desconto
+Crie um programa que leia a nota de um aluno e calcule sua media
 '''
-print('=====Desconto=====')
 
-preco = float(input('Digite o valor da peça para receber o desconto de 5 % R$:'))
+print('=====Média=====')
 
-desconto = preco - (preco * 5  / 100)
+nota1 = int(input('Digite a primeira nota'))
+nota2 = int(input('Digite a segunda nota'))
+nota3 = int(input('Digite a terceira nota'))
+nota4 = int(input('Digite a quarta nota'))
 
-print(f'Sua roupa com o valor de:{preco:.2f} sairá por;{desconto:.2f} com o cumpom de 5%')
+print(f'A Média do seu aluno é: {(nota1+nota2+nota3+nota4) / 4}')
 
-# print(f'O valor de dasconto da sua roupa é de: {desconto:.2f} reais')
 
-# print(f'Sendo assim ela saira por {preco - desconto:.2f}')
+i = 0
+soma = 0
+nota = 4
+
+while i < nota :
+
+    num = float(input('digite uma nota'))
+
+    soma+= num
+    i+=1
+   
+print(f'A media do seu aluno é :{soma / nota}')

@@ -1,14 +1,15 @@
 '''
 Criado por : Gui Castro
 
-16/01/2025
+15/01/2025
 
-Escreva um programa que pergunte a quntidade de km rodados por um carro alugado e e a quntidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar sabendo que a diaria e de 60 R$ e 0,15 centavos por km
+Crie um programa que  leia quanto de dinheiro uma pessoa tem na carteira e quntos dolares el apode comprar considere a cotação autal
+
 '''
+print('=====Converte Doleta=====')
 
-dia = int(input('Tempo com o carro?'))
-km = float(input('Km rodados  com o carro'))
+real = float(input('quanto dinheiro você tem na Carteira ? R$'))
 
-rd = (dia * 60) + (km * 0.15)
+doleta =  6.0377
 
-print(f'O preço total do alugel mais os km, são de: {rd :.2f}')
+print (f'Com esse {real:.2f} você pode comprar {real / doleta:.2f} Dólares')

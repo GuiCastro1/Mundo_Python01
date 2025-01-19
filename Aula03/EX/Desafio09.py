@@ -3,12 +3,21 @@ Criado por : Gui Castro
 
 15/01/2025
 
-Faça um programa que acresente 15% ao salario de um funcionario
+faça um programa que converta de metro para cm e de cm para mm
 
 '''
+print('=====Conversor de Metros=====')
 
-salario = float(input('digite o valor do seu salario para receber um acrescimo de 15% R$:'))
+metro = float(input('digite um valor em METROS para converter em DM, CM, & MM'))
 
-aumento = salario + (salario * 15 / 100)
+print(f"{metro} Metros em Km são :{ metro / 1000}Km")
 
-print(f'Seu salario reajustado é de R$:{aumento:.2f}')
+print(f"{metro} Metros em Hm são :{ metro / 100}Hm")
+
+print(f"{metro} Metros em Dam são  :{ metro / 10}Dam")
+
+print(f"{metro} Metros em Dm são :{ metro * 10}Dm")
+
+print(f"{metro} Metros em Cm são :{ metro * 100}Cm")
+
+print(f"{metro} Metros em Mm são  :{ metro * 1000}Mm")
