@@ -10,10 +10,10 @@ from math import trunc , ceil , floor
 
 num = float(input('Digite um número '))
 
-print(f'O número sem casas decimais é : {trunc(num)}')
+print(f'O número sem casas decimais é : {trunc(num)}')#Corta o num depois do ponto
 
-print(f'O número sem casas decimais é: {int(num)}')
+print(f'O número sem casas decimais é: {int(num)}')#Faz convesão de float para int o que resulta no número sem as casas decimais
 
-print(f'O número sem casas decimais é : {floor(num)}')
+print(f'O número sem casas decimais é : {floor(num)}')#A ele arredonda para baixo
 
 # print(f'O número sem casas decimais é : {ceil(num)}')  ele arredonda para cima 

@@ -5,7 +5,7 @@ Criado por : Gui Castro
 
 Faça um programa que leia comprimento  do cateto oposto e do cateto adjacente de um triangulo retangulo, calcule e mostre o comprimento da hipotenusa
 '''
-
+#Importa a math que é uma lib nativa de matemática do python
 import math
 
 adjacente = float(input('Digite o valor do cateto adjacente do seu triangulo:'))

@@ -6,7 +6,8 @@ Criado por : Gui Castro
 crie um programa que calcule toda a da tabuada de um determinado numero
 
 '''
-print('=====Exibe Tabuada=====') 
+print('=====Exibe Tabuada=====')  
+
 #A variável (tabuada) transforma uma string para um tipo int.
 
 tabuada = int(input('Digite um cumero para exibir a tabuada do mesmo'))

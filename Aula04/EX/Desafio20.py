@@ -7,6 +7,7 @@ Um professor quer sortear um de seus alunos para receber uma bala, faça um prog
 '''
 from random import choice
 
+#Recebe o nome dos alunos
 aluno_um = str(input('Digite o nome do primeiro aluno'))
 
 aluno_dois = str(input('Digite o nome do sengundo aluno'))
@@ -15,6 +16,7 @@ aluno_tres = str(input('Digite o nome do terceiro aluno'))
 
 aluno_quatro = str(input('Digite o nime do quarto aluno'))
 
+#Adciona em uma lista
 lista = [aluno_um, aluno_dois, aluno_tres, aluno_quatro]
 
 # O metodo choice escolhe um item da lista 

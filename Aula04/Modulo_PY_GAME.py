@@ -1,7 +1,9 @@
-import pygame
+import pygame#importa pygame
 
+#"""Inicia/avisa""" que um audio vai ser toacdo
 pygame.init()
 
+#chama  (mixer.music.load) para encontrar o caminho ate a musica
 pygame.mixer.music.load('C:/Users/Admin/Documents/Mundo_Python01/Aula04/Bad_Bunny.mp3')
 
 # Toca a música
